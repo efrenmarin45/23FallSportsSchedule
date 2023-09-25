@@ -1,0 +1,149 @@
+.toggleContainer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 350px;
+	height: 50px;
+	background-color: #12469a;
+	cursor: pointer;
+	margin: 1em 1em 0 0;
+	border-radius: 25px;
+}
+
+.togglePillFootball {
+	color: #ffffff;
+	width: 175px;
+	height: 40px;
+    margin: .4em;
+	background-color: #fcb040;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 25px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+	left: 2px;
+	transition: all 0.3s ease;
+}
+
+.togglePillVolleyball {
+	color: #ffffff;
+	width: 175px;
+	height: 40px;
+    margin: .4em;
+	background-color: #fcb040;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 25px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 160px;
+	transition: all 0.3s ease;
+}
+
+.toggleText{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+	.toggleContainer {
+		width: 300px;
+		height: 50px;
+		margin: 1em 1em 0 0;
+		border-radius: 25px;
+	}
+	
+	.togglePillFootball {
+		width: 150px;
+		height: 40px;
+		margin: .4em;
+		font-size: 14px;
+		border-radius: 25px;
+		left: 2px;
+	}
+	
+	.togglePillVolleyball {
+		width: 150px;
+		height: 40px;
+		margin: .4em;
+		font-size: 14px;
+		border-radius: 25px;
+		left: 140px;
+	}
+	
+	.toggleText{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.toggleContainer {
+		width: 250px;
+		height: 50px;
+		margin: 1em 1em 0 0;
+		border-radius: 25px;
+	}
+	
+	.togglePillFootball {
+		width: 125px;
+		height: 40px;
+		margin: .4em;
+		font-size: 14px;
+		border-radius: 25px;
+		left: 2px;
+	}
+	
+	.togglePillVolleyball {
+		width: 125px;
+		height: 40px;
+		margin: .4em;
+		font-size: 14px;
+		border-radius: 25px;
+		left: 115px;
+	}
+	
+	.toggleText{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.toggleContainer {
+		width: 200px;
+		height: 40px;
+		margin: 1em 1em 0 0;
+		border-radius: 25px;
+	}
+	
+	.togglePillFootball {
+		width: 100px;
+		height: 30px;
+		margin: .4em;
+		font-size: 12px;
+		border-radius: 25px;
+		left: 2px;
+	}
+	
+	.togglePillVolleyball {
+		width: 100px;
+		height: 30px;
+		margin: .4em;
+		font-size: 12px;
+		border-radius: 25px;
+		left: 90px;
+	}
+
+	.toggleText{
+		font-size: 12px;
+	}
+}
