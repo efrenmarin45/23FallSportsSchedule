@@ -1,6 +1,11 @@
 import styles from "../styles/toggle.module.css";
 
-const Toggle = ({ onToggle, isFootball }) => {
+interface ToggleProps {
+	onToggle: () => null,
+	isFootball: boolean
+}
+
+const Toggle = ({ onToggle, isFootball }: ToggleProps) => {
 	return (
 		<>
 			<div className={styles.toggleContainer} onClick={onToggle}>
