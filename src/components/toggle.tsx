@@ -1,7 +1,7 @@
 import styles from "../styles/toggle.module.css";
 
 interface ToggleProps {
-	onToggle: () => null;
+	onToggle: () => void;
 	isFootball: boolean;
 }
 
