@@ -1,8 +1,8 @@
 import styles from "../styles/toggle.module.css";
 
 interface ToggleProps {
-	onToggle: () => null,
-	isFootball: boolean
+	onToggle: () => null;
+	isFootball: boolean;
 }
 
 const Toggle = ({ onToggle, isFootball }: ToggleProps) => {

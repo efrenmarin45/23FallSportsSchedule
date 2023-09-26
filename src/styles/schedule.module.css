@@ -1,24 +1,24 @@
 .tableContainer {
-    max-width: 45vw;
-    min-width: 565px;
-    height: 80vh;
-    display: flex;
-    margin: 5em auto;
-    background-color: rgb(255, 255, 255, .80);
+	max-width: 45vw;
+	min-width: 565px;
+	height: 80vh;
+	display: flex;
+	margin: 5em auto;
+	background-color: rgb(255, 255, 255, 0.8);
 }
 
 .dateTable {
-    width: 45vw;
+	width: 45vw;
 }
 
-@media screen and (max-width: 600px){
-    .tableContainer {
-        min-width: 450px;
-    }
+@media screen and (max-width: 600px) {
+	.tableContainer {
+		min-width: 450px;
+	}
 }
 
-@media screen and (max-width: 500px){
-    .tableContainer {
-        min-width: 350px;
-    }
+@media screen and (max-width: 500px) {
+	.tableContainer {
+		min-width: 350px;
+	}
 }

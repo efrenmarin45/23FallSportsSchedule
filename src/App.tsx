@@ -15,8 +15,8 @@ function App() {
 
 	return (
 		<div className={styles.container}>
-      <Logo />
-			<Toggle onToggle={checkSport} isFootball={isFootball}/>
+			<Logo />
+			<Toggle onToggle={checkSport} isFootball={isFootball} />
 			{isFootball ? <Football /> : <Volleyball />}
 		</div>
 	);

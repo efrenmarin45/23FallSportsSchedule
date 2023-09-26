@@ -4,7 +4,7 @@ import styles from "../styles/football.module.css";
 const Football = () => {
 	return (
 		<div className={styles.footballContainer}>
-            <FootballSchedule />
+			<FootballSchedule />
 		</div>
 	);
 };

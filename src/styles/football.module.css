@@ -1,15 +1,15 @@
 .footballContainer {
 	width: 100vw;
 	height: 100vh;
-  background: url(../assets/footballThree.jpg);
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
+	background: url(../assets/footballThree.jpg);
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
 }
 
 .footballBG {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }

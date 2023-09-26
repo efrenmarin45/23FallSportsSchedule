@@ -1,10 +1,10 @@
 .logoImg {
-    position: absolute;
-    width: 125px;
+	position: absolute;
+	width: 125px;
 }
 
-@media screen and (max-width: 800px){
-    .logoImg {
-        width: 80px;
-    }
+@media screen and (max-width: 800px) {
+	.logoImg {
+		width: 80px;
+	}
 }

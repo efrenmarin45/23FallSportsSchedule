@@ -72,8 +72,7 @@ export const FootballSchedule = () => {
 				<Table
 					className={styles.dateTable}
 					size='small'
-					aria-label='simple table'
-					>
+					aria-label='simple table'>
 					<TableHead className={styles.tableHeader}>
 						<TableRow>
 							<TableCell
@@ -82,7 +81,7 @@ export const FootballSchedule = () => {
 									color: "#ffffff",
 									textShadow: "0px 1px 1px black",
 									fontSize: "1.5rem",
-									fontWeight: "bold"
+									fontWeight: "bold",
 								}}
 								align='center'
 								colSpan={4}>
@@ -151,7 +150,7 @@ export const VolleyballSchedule = () => {
 									color: "#ffffff",
 									textShadow: "0px 1px 1px black",
 									fontSize: "1.5rem",
-									fontWeight: "bold"
+									fontWeight: "bold",
 								}}
 								align='center'
 								colSpan={4}>
